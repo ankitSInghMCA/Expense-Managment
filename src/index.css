@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: black !important;; */
+}
+.center-expensepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-expense-img img{
+    max-width: 500px;
+}
+.expense-page-conatiner{
+    padding: 40px 70px 50px 60px;
+}
+.expense-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.headerof-expense img{
+    max-width: 70px;
+}
+.headerof-expense{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #4ca474;
+    color: #fff;
+}
+.left-conatint{
+    display: flex;
+    align-items: center;
+}
+.profile-pictire{
+    max-width: 100px;
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+.profilr-pic-inside img{
+    max-width: 115px;
+    width: 100%;
+}
+.home-main-contint{
+    display: flex;
+    align-items: center;
+}
+.left-conatint{
+    background-color: #ffff;
+    width: 20%;
+}
+.underline-left{
+    border-bottom: 2px solid black;
+    width: 204px ;
+}
+/* .right-containt{
+    background-image: url("./assets/banerright.png");
+    width: 100%;
+} */
