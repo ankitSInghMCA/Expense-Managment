@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    /* background-color: black !important;; */
+    box-sizing: border-box;
 }
 .center-expensepage{
     display: flex;
@@ -23,41 +23,98 @@
 .headerof-expense img{
     max-width: 70px;
 }
+.headers{
+    background-color: #4ca474;
+}
+.headers-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 8px ;
+}
 .headerof-expense{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: #4ca474;
     color: #fff;
 }
 .left-conatint{
     display: flex;
-    align-items: center;
 }
-.profile-pictire{
-    max-width: 100px;
-    width: 100%;
-    background-color: #ffff;
-    border-radius: 50%;
-}
+
 .profilr-pic-inside img{
-    max-width: 115px;
-    width: 100%;
+   width: 195px; 
 }
 .home-main-contint{
     display: flex;
-    align-items: center;
 }
 .left-conatint{
-    background-color: #ffff;
     width: 20%;
+}
+.right-containt{
+    width: 80%;
 }
 .underline-left{
     border-bottom: 2px solid black;
-    width: 204px ;
+    width: 307px ;
+    margin: 0px !important;
 }
-/* .right-containt{
+.right-containt{
+    padding-top: 10px;
     background-image: url("./assets/banerright.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 92vh;
+    width: 100%; */
+    
+}
+.profile-main{
+    width: 165px;
+    height: 165px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.left-nabbar p{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 0px !important;
+    padding: 20px 0px;
+    margin-left: 20px;
+}
+.left-nabbar:hover{
+    color: #ffff;
+    background-color: #4ca474;
+}
+.left-nabbar hr:hover{
+    color: #ffff !important;
+}
+.left-conatint-container{
+   
+    padding: 40px 0px;
+    
+}
+.home-contair-new-main{
+   
+}
+.footer{
+    background-color: #4ca474;
+}
+.footer-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
     width: 100%;
-} */
+}
+.footer-containt h2{
+    text-align: center;
+    font-size: 40px;
+    color: #ffff;
+}

@@ -46,10 +46,15 @@ const navigate = useNavigate();
   
   return (
     <>
-      <div className="headerof-expense">
-        <h1>Expense Managment System</h1>
-        <AccountBalanceWalletIcon  fontSize='large'/>
+    <div className="headers">
+      <div className="headers-main">
+        <div className="headerof-expense">
+          <h1>Expense Managment System</h1>
+          <AccountBalanceWalletIcon  fontSize='large'/>
+        </div>
       </div>
+    </div>
+     
     </>
   );
 };
